@@ -15,6 +15,7 @@
 		13D092552B45371F00185E6A /* TopMoversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D092542B45371F00185E6A /* TopMoversView.swift */; };
 		13D092572B4539F900185E6A /* AllCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D092562B4539F900185E6A /* AllCoinsView.swift */; };
 		13D092592B453A0900185E6A /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D092582B453A0900185E6A /* CoinRowView.swift */; };
+		13D0925B2B453F6A00185E6A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D0925A2B453F6A00185E6A /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		13D092542B45371F00185E6A /* TopMoversView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversView.swift; sourceTree = "<group>"; };
 		13D092562B4539F900185E6A /* AllCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinsView.swift; sourceTree = "<group>"; };
 		13D092582B453A0900185E6A /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		13D0925A2B453F6A00185E6A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		13D0924E2B4534B600185E6A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				13D0925A2B453F6A00185E6A /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				13D092592B453A0900185E6A /* CoinRowView.swift in Sources */,
 				13D092552B45371F00185E6A /* TopMoversView.swift in Sources */,
+				13D0925B2B453F6A00185E6A /* HomeViewModel.swift in Sources */,
 				13D0923F2B4533CE00185E6A /* HomeView.swift in Sources */,
 				13D092572B4539F900185E6A /* AllCoinsView.swift in Sources */,
 				13D0923D2B4533CE00185E6A /* SwiftCoinApp.swift in Sources */,
