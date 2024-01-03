@@ -14,7 +14,7 @@ struct HomeView: View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
                 // top mvers view
-                TopMoversView()
+                TopMoversView(viewModel: viewModel)
                 
                 Divider()
                 // all coins view
