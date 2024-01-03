@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		13CAB88D2B455C7400A209C1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 13CAB88C2B455C7400A209C1 /* Kingfisher */; };
+		13CAB88F2B455E6700A209C1 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CAB88E2B455E6700A209C1 /* Double.swift */; };
 		13D0923D2B4533CE00185E6A /* SwiftCoinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D0923C2B4533CE00185E6A /* SwiftCoinApp.swift */; };
 		13D0923F2B4533CE00185E6A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D0923E2B4533CE00185E6A /* HomeView.swift */; };
 		13D092412B4533CF00185E6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D092402B4533CF00185E6A /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13CAB88E2B455E6700A209C1 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		13D092392B4533CE00185E6A /* SwiftCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D0923C2B4533CE00185E6A /* SwiftCoinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoinApp.swift; sourceTree = "<group>"; };
 		13D0923E2B4533CE00185E6A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		13D0924F2B45356300185E6A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				13CAB88E2B455E6700A209C1 /* Double.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				13D092572B4539F900185E6A /* AllCoinsView.swift in Sources */,
 				13D0923D2B4533CE00185E6A /* SwiftCoinApp.swift in Sources */,
 				13D0925E2B45421800185E6A /* Coin.swift in Sources */,
+				13CAB88F2B455E6700A209C1 /* Double.swift in Sources */,
 				13D092532B45370300185E6A /* TopMoversItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
